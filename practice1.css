@@ -1,0 +1,98 @@
+header img {
+    width: 40px;
+    height: auto;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url('dahi-bhalla.jpg');
+    background-size: cover;
+    background-position: center;
+}
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f2f2f2;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #3b170d;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #4CAF50;
+}
+form {
+    display: flex;
+    align-items: center;
+    order: ;
+    margin-right: 30px;
+}
+input[type="search"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+input[type="submit"] {
+    padding: 5px;
+    background-color: #4CAF50;
+    color: #3b170d;
+    border-radius: 5px;
+    cursor: pointer;
+}
+body {
+    
+    margin: 0;
+    padding: 0;
+    background-color: #3593a2;
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .image-container {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 10px 0;
+  }
+  

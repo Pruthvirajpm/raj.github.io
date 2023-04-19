@@ -1,0 +1,48 @@
+header img {
+    width: 40px;
+    height: auto;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f2f2f2;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #3b170d;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #4CAF50;
+}
+form {
+    display: flex;
+    align-items: center;
+    order: ;
+    margin-right: 30px;
+}
+input[type="search"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+input[type="submit"] {
+    padding: 5px;
+    background-color: #4CAF50;
+    color: #3b170d;
+    border-radius: 5px;
+    cursor: pointer;
+}
